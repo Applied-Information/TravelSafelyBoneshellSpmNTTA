@@ -18,7 +18,7 @@ import PackageDescription
 
 // Release values, stamped by scripts/build_xcframework.sh <version>.
 let sdkVersion = "1.0.0"
-let sdkChecksum = "e7f9621b12af4c8248f43adf37375d7eadacc4c9f48cb3a3b9ff917c004fe615"
+let sdkChecksum = "1692264825c753ae37ec6a1c081604b22f1678f83bbd58215ce8910d0b7098e0"
 let sdkURL = "https://github.com/Applied-Information/TravelSafelyBoneshellSpmNTTA/releases/download/\(sdkVersion)/TravelSafelyBoneshell.xcframework.zip"
 
 // Clients download the zip from the GitHub release. When a freshly built
