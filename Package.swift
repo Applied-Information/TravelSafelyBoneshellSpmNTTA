@@ -17,8 +17,8 @@ import Foundation
 import PackageDescription
 
 // Release values, stamped by scripts/build_xcframework.sh <version>.
-let sdkVersion = "1.0.0"
-let sdkChecksum = "1692264825c753ae37ec6a1c081604b22f1678f83bbd58215ce8910d0b7098e0"
+let sdkVersion = "1.0.1"
+let sdkChecksum = "aa811cf61564d1cac4236e3aa0a18c7f33e6dcdfeca8e234551d30f02c7b0bca"
 let sdkURL = "https://github.com/Applied-Information/TravelSafelyBoneshellSpmNTTA/releases/download/\(sdkVersion)/TravelSafelyBoneshell.xcframework.zip"
 
 // Clients download the zip from the GitHub release. When a freshly built
@@ -33,7 +33,7 @@ let sdkBinary: Target = useLocal
 
 let package = Package(
     name: "TravelSafelyBoneshell",
-    platforms: [.iOS("17.6")],
+    platforms: [.iOS("16.0")],
     products: [
         .library(name: "TravelSafelyBoneshell", targets: ["TravelSafelyBoneshellWrapper"]),
     ],

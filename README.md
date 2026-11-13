@@ -4,7 +4,7 @@ Swift Package for the TravelSafely SDK (NTTA).
 
 ## Requirements
 
-- iOS 17.6 or later
+- iOS 16.0 or later
 - Xcode 27 or later
 
 ## Installation
